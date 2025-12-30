@@ -1,5 +1,6 @@
 import React from "react";
 import Card2 from "./Card2";
+import img3 from "../assets/images/varied dress forms.png";
 
 const Cards2 = () => {
   return (
@@ -9,11 +10,7 @@ const Cards2 = () => {
         <Card2 />
       </div>
       <div className="right w-[50%] rounded-md">
-        <img
-          src="src\assets\images\varied dress forms.png"
-          alt="img"
-          className="rounded-md"
-        />
+        <img src={img3} alt="img" className="rounded-md" />
       </div>
     </div>
   );

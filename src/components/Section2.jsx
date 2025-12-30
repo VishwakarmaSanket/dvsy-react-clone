@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from "../assets/images/Fashion-themed image.png";
 
 const Section2 = () => {
   return (
@@ -26,11 +27,7 @@ const Section2 = () => {
         </div>
       </div>
       <div className="right w-[50%] rounded-md">
-        <img
-          src="src\assets\images\Fashion-themed image.png"
-          alt=""
-          className="rounded-md"
-        />
+        <img src={img1} alt="" className="rounded-md" />
       </div>
     </div>
   );
